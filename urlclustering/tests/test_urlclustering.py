@@ -2,8 +2,8 @@
 from __future__ import unicode_literals
 from urlclustering.urlclusterer import cluster_urls
 from urlclustering.reimprover import improve_patterns, _str_reduce
-import test_util  
 from scrapy.utils.python import unique as unique_list, str_to_unicode
+import test_util  
 import unittest
 
 #TODO Modify these new dynamic tests to use static data from each of the sites, 

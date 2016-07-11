@@ -1,31 +1,9 @@
-from urlparse import urlparse
 from urlparse import urljoin 
-from lxml import html
-import urllib
-from os.path import basename
-import tldextract
-import json
-import logging
 import os
 import requests
-import time
-import sys 
-import time
 import re
 
-import socks
-import socket
-import urllib2
-from urllib2 import urlopen
-import sys
-
-import random
-import urlclustering
-import xmlrpclib
-
 from scrapy.utils.python import unique as unique_list, str_to_unicode
-from scrapy import Selector
-from lxmlhtml import LxmlLinkExtractor as LinkExtractor
 from BeautifulSoup import BeautifulSoup
 
 def apply_reg_ex_to_urls(regex, url_list):

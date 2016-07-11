@@ -30,5 +30,5 @@ setup(
         'Topic :: Internet',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    install_requires=['Scrapy==1.0.5'],
+    install_requires=['Scrapy==1.0.5','BeautifulSoup','pyasn1'],
 )

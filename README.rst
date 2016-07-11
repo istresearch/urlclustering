@@ -3,6 +3,16 @@ urlclustering
 
 This package facilitates the clustering of similar URLs of a website.
 
+Dependencies
+~~~~~~~~~~~~
+
+To install on ubuntu, the following packages are required: 
+
+::
+   apt-get install libxml2-dev libxslt-dev python-dev python-setuptools zlib1g-dev
+
+
+
 **Live demo**: http://urlclustering.com
 
 General information
